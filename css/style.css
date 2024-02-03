@@ -1017,3 +1017,43 @@ input.submit{
   color:#a4a4a4;
 }
 
+.about-us .column-uno{
+  margin-top:40px;
+  width:300px;
+  float:left;
+  margin-bottom:20px;
+  height:450px;
+}
+
+.about-us .column-dos{
+  margin-top:40px;
+  width:300px;
+  float:left;
+  margin-bottom:20px;
+  height:450px;
+}
+
+.about-us .column-tres{
+  margin-top:40px;
+  width:300px;
+  float:left;
+  margin-bottom:20px;
+  height:450px;
+}
+
+.about-us .column-quatre{
+  margin-top:40px;
+  width:300px;
+  float:left;
+  margin-bottom:70px;
+  height:450px;
+}
+
+.about-us .column-cinq{
+  margin-top:40px;
+  width:300px;
+  float:left;
+  margin-bottom:70px;
+  height:450px;
+}
+
