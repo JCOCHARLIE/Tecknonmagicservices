@@ -766,6 +766,7 @@ h1 span{
 /* Contact */
 
 .contact{
+  justify-content: space-between;
   position:relative;
   width:100%;
   background:white;
@@ -774,8 +775,14 @@ h1 span{
   margin-bottom: 300px;  
 }
 
+.map-container{
+  flex: 1;
+}
+
 
 .contact .content{
+  display: flex;
+  flex-direction: row;
   position:relative;
   width:900px;
   overflow:hidden;
@@ -1012,4 +1019,6 @@ input.submit{
   height:450px;
   text-align: left;
 }
+
+
 
