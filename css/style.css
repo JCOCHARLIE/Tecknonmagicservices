@@ -149,11 +149,17 @@ h1 span{
 }
 
 .start-page .content .text .logo{
-  width:50%;
-  height:123px;
-  margin:0 0px 200px;
-  
+    text-align: center;
+    padding: 50px 0;
 }
+
+.start-page .content .text .logo img{
+  display:block;
+  margin:auto;
+  max-width:96%;
+  justify-content: center;
+}
+
 
 
 
@@ -348,6 +354,7 @@ h1 span{
   width:100%;
   background:white;
   z-index:10;
+  text-align: left;
 }
 
 .about-us .content{
@@ -355,6 +362,7 @@ h1 span{
   width:900px;
   margin: 0 auto;
   overflow: hidden;
+  text-align: left;
 }
 
 .about-us h1{
@@ -403,7 +411,7 @@ h1 span{
 }
 
 .about-us p{
-  text-align:center;
+  text-align:left;
   font-size:14px;
   width:250px;
   margin:30px auto;
@@ -412,14 +420,6 @@ h1 span{
   letter-spacing:0;
   position:relative;
   font-weight:300;
-}
-
-.about-us .column-one{
-  margin-top:40px;
-  width:300px;
-  float:left;
-  margin-bottom:70px;
-  height:370px;
 }
 
 /* Default style for large screens */
@@ -457,10 +457,14 @@ h1 span{
       width: 40px;
   }
 }
-
-
-
-
+.about-us .column-one{
+  margin-top:40px;
+  width:300px;
+  float:left;
+  margin-bottom:70px;
+  height:370px;
+  text-align: left;
+}
 
 .about-us .column-1{
   margin-top:40px;
@@ -468,29 +472,7 @@ h1 span{
   float:left;
   margin-bottom:20px;
   height:200px;
-}
-
-.about-us .column-one .circle-one{
-  height: 100px;
-  position:relative;
-  margin:0 auto;
-  border:2px solid #f0f0f0;
-  background: url(../img/icons/) white no-repeat center center;
-  -moz-border-radius:100px;
-  -webkit-border-radius:100px;
-  border-radius: 100px;
-  width: 100px;
-  cursor:pointer;
-    -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-}
-
-.about-us .column-one .circle-one:hover{
-  border:2px solid #ada074;
-
+  text-align: left;
 }
 
 .about-us .column-two{
@@ -499,6 +481,7 @@ h1 span{
   float:left;
   margin-bottom:70px;
   height:370px;
+  text-align: left;
 }
 
 .about-us .column-2{
@@ -509,37 +492,13 @@ h1 span{
   height:200px;
 }
 
-
-
-.about-us .column-two .circle-two{
-  height: 100px;
-  position:relative;
-  margin:0 auto;
-  border:2px solid #f0f0f0;
-  background: url(../img/icons/minimalist.png) white no-repeat center center;
-  -moz-border-radius:100px;
-  -webkit-border-radius:100px;
-  border-radius: 100px;
-  width: 100px;
-    cursor:pointer;
-    -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-}
-
-.about-us .column-two .circle-two:hover{
-  border:2px solid #ada074;
-}
-
-
 .about-us .column-three{ 
   margin-top:40px;
   width:300px;
   float:left;
   margin-bottom:70px;
-  height:370px;
+  height:550px;
+  text-align: left;
 }
 
 .about-us .column-3{
@@ -572,31 +531,8 @@ h1 span{
   float:left;
   margin-bottom:70px;
   height:250px;
+  text-align: left;
 }
-
-.about-us .column-three .circle-three{ 
-  height: 100px;
-  position:relative;
-  margin:0 auto;
-  border:2px solid #f0f0f0;
-  background: url(../img/icons/free.png) white no-repeat center center;
-  -moz-border-radius:100px;
-  -webkit-border-radius:100px;
-  border-radius: 100px;
-  width: 100px;
-  cursor:pointer;
-  -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-}
-
-.about-us .column-three .circle-three:hover{ 
-  border:2px solid #ada074;
-}
-
-
 
 /* Portfolio */
 
@@ -1023,6 +959,7 @@ input.submit{
   float:left;
   margin-bottom:20px;
   height:450px;
+  text-align: left;
 }
 
 .about-us .column-dos{
@@ -1031,6 +968,7 @@ input.submit{
   float:left;
   margin-bottom:20px;
   height:450px;
+  text-align: left;
 }
 
 .about-us .column-tres{
@@ -1039,6 +977,7 @@ input.submit{
   float:left;
   margin-bottom:20px;
   height:450px;
+  text-align: left;
 }
 
 .about-us .column-quatre{
@@ -1047,6 +986,7 @@ input.submit{
   float:left;
   margin-bottom:70px;
   height:450px;
+  text-align: left;
 }
 
 .about-us .column-cinq{
@@ -1055,5 +995,6 @@ input.submit{
   float:left;
   margin-bottom:70px;
   height:450px;
+  text-align: left;
 }
 
