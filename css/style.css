@@ -111,6 +111,21 @@ h1 span{
   background-size: cover;
 }
 
+.responsive-background {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Adjust the initial background image */
+  background-image: url('../img/background/landing.png');
+}
+
+@media only screen and (max-width: 767px) {
+  .responsive-background {
+    /* Use a smaller image for mobile devices */
+    background-image: url('../img/background/landing.png');
+  }
+}
+
 .start-page hr{
   color: white;
   margin-top:30px;
