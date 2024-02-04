@@ -1020,5 +1020,19 @@ input.submit{
   text-align: left;
 }
 
+.map-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .map-container {
+    flex-direction: row;
+  }
+  .contact-text {
+    align-self: flex-start;
+  }
+}
+
 
 
